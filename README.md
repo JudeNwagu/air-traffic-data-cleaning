@@ -350,13 +350,13 @@ This reduces data preparation time and improves the quality of insights derived 
 
 ```
 
-project/
+Project Data Cleaning/
 
 │
 
 ├── notebooks/
 
-│   └── data\_cleaning.ipynb
+│   └── air_traffic_cleaning.ipynb
 
 │
 
