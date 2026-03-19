@@ -6,7 +6,7 @@
 
 
 
-\## Project Summary
+## Project Summary
 
 
 
@@ -22,11 +22,11 @@ The objective was to transform this raw dataset into a clean, structured, and tr
 
 
 
-\---
 
 
 
-\## Business Context
+
+## Business Context
 
 
 
@@ -34,13 +34,13 @@ A clean version of this dataset can be used to answer questions such as:
 
 
 
-\* Which airlines dominate airport traffic over time
+* Which airlines dominate airport traffic over time
 
-\* How landing activity changes across seasons
+* How landing activity changes across seasons
 
-\* What aircraft types contribute most to total landed weight
+* What aircraft types contribute most to total landed weight
 
-\* How operational load varies across regions
+* How operational load varies across regions
 
 
 
@@ -48,11 +48,11 @@ These insights can inform airline partnerships, infrastructure planning, and cap
 
 
 
-\---
 
 
 
-\## Problem
+
+## Problem
 
 
 
@@ -60,17 +60,17 @@ The raw dataset presented several challenges:
 
 
 
-\* Missing values in key categorical fields
+* Missing values in key categorical fields
 
-\* Inconsistent column naming conventions
+* Inconsistent column naming conventions
 
-\* Incorrect data types for time based analysis
+* Incorrect data types for time based analysis
 
-\* Potential duplicate records
+* Potential duplicate records
 
-\* Presence of extreme values that require validation
+* Presence of extreme values that require validation
 
-\* Non one to one relationships across some attributes
+* Non one to one relationships across some attributes
 
 
 
@@ -78,11 +78,9 @@ Without addressing these issues, any analysis built on top of the data would be 
 
 
 
-\---
 
 
-
-\## Approach
+## Approach
 
 
 
@@ -90,7 +88,7 @@ I followed a structured data cleaning workflow used in real analytical environme
 
 
 
-\### 1. Data Loading
+### 1. Data Loading
 
 
 
@@ -106,7 +104,7 @@ df = pd.read\_csv("air\_traffic.csv")
 
 
 
-\### 2. Data Inspection
+### 2. Data Inspection
 
 
 
@@ -126,11 +124,11 @@ Goal: Understand structure, data types, and initial data quality.
 
 
 
-\---
+---
 
 
 
-\### 3. Missing Value Assessment
+### 3. Missing Value Assessment
 
 
 
@@ -146,11 +144,11 @@ Goal: Identify columns with missing data and determine handling strategy.
 
 
 
-\---
+---
 
 
 
-\### 4. Column Standardization
+### 4. Column Standardization
 
 
 
@@ -166,11 +164,11 @@ Goal: Ensure consistency and improve usability.
 
 
 
-\---
+---
 
 
 
-\### 5. Data Type Correction
+### 5. Data Type Correction
 
 
 
@@ -186,11 +184,11 @@ Goal: Enable time based analysis and avoid downstream errors.
 
 
 
-\---
+---
 
 
 
-\### 6. Handling Missing Values
+### 6. Handling Missing Values
 
 
 
@@ -206,11 +204,11 @@ Goal: Preserve records while maintaining categorical integrity.
 
 
 
-\---
+---
 
 
 
-\### 7. Duplicate Removal
+### 7. Duplicate Removal
 
 
 
@@ -226,11 +224,11 @@ Goal: Ensure each record is unique.
 
 
 
-\---
+---
 
 
 
-\### 8. Statistical Exploration
+### 8. Statistical Exploration
 
 
 
@@ -246,11 +244,11 @@ Goal: Understand distribution and detect anomalies.
 
 
 
-\---
+---
 
 
 
-\### 9. Outlier Identification
+### 9. Outlier Identification
 
 
 
@@ -266,11 +264,11 @@ Goal: Identify unusually high activity and validate whether it reflects real ope
 
 
 
-\---
+---
 
 
 
-\### 10. Data Validation
+### 10. Data Validation
 
 
 
@@ -278,11 +276,11 @@ Checked for logical consistency across categorical fields and ensured values ali
 
 
 
-\---
+---
 
 
 
-\### 11. Export Clean Dataset
+### 11. Export Clean Dataset
 
 
 
@@ -298,29 +296,29 @@ Goal: Create a reusable dataset for analysis and reporting.
 
 
 
-\---
+---
 
 
 
-\## Key Insights
+## Key Insights
 
 
 
-\* A small number of airlines contribute disproportionately to total landing activity
+* A small number of airlines contribute disproportionately to total landing activity
 
-\* Landing counts show strong seasonal patterns, reinforcing the need for year over year comparison
+* Landing counts show strong seasonal patterns, reinforcing the need for year over year comparison
 
-\* Certain aircraft types consistently dominate operational usage
+* Certain aircraft types consistently dominate operational usage
 
-\* Extreme values highlight high traffic routes or hub operations rather than errors
-
-
-
-\---
+* Extreme values highlight high traffic routes or hub operations rather than errors
 
 
 
-\## Impact
+---
+
+
+
+## Impact
 
 
 
@@ -328,13 +326,13 @@ The cleaned dataset is now:
 
 
 
-\* Structured and analysis ready
+* Structured and analysis ready
 
-\* Consistent across all fields
+* Consistent across all fields
 
-\* Reliable for time series comparison
+* Reliable for time series comparison
 
-\* Suitable for dashboards, reporting, and further modeling
+* Suitable for dashboards, reporting, and further modeling
 
 
 
@@ -342,11 +340,11 @@ This reduces data preparation time and improves the quality of insights derived 
 
 
 
-\---
+---
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
@@ -376,33 +374,33 @@ project/
 
 
 
-\---
+---
 
 
 
-\## Tools Used
+## Tools Used
 
 
 
-\* Python
+* Python
 
-\* pandas
+* pandas
 
-\* Jupyter Notebook
-
-
-
-\---
+* Jupyter Notebook
 
 
 
-\## Author
+---
+
+
+
+## Author
 
 
 
 Jude Nwagu
 
-Data Professional
+Data Analyst & Engineering
 
 
 
