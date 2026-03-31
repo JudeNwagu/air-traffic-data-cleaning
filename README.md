@@ -378,15 +378,17 @@ Project Data Cleaning/
 
 
 
-## Tools Used
+## Tech Stack Used
 
 
 
-* Python
+* Language: Python
 
-* pandas
+* Libraries: Pandas
 
-* Jupyter Notebook
+* Environment: Jupyter Notebook
+
+* Version Control: Git & GitHub
 
 
 
